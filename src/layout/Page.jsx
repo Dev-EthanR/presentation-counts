@@ -4,12 +4,14 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 const Page = () => {
   return (
-    <>
+    <div className="flex flex-col h-dvh">
       <Header />
       <NavBar />
-      <Outlet />
+      <div className="grow flex justify-center items-center">
+        <Outlet />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

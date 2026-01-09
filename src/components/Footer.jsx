@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bg})` }}
-      className="bg-size-[83px] h-40 text-2xl flex items-center text-white"
+      className="bg-size-[83px] min-h-40 w-full text-2xl flex items-center justify-center text-white"
     >
       Footer
     </div>

@@ -1,5 +1,6 @@
 import logo from "../assets/images/logo.png";
 import bg from "../assets/images/bg.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,7 +8,13 @@ const Header = () => {
       style={{ backgroundImage: `url(${bg})` }}
       className="bg-size-[83px] h-40 text-2xl flex flex-col items-center pt-4"
     >
-      <img className="" src={logo} alt="Presentation Counts Logo" />
+      <Link to="/">
+        <img
+          className="select-none"
+          src={logo}
+          alt="Presentation Counts Logo"
+        />
+      </Link>
       <span className="text-[#fefdfd] tracking-widest uppercase font-sans text-1xl">
         property stylists
       </span>
