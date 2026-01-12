@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Page from "./layout/Page";
+import Home from "./layout/Home";
 import NotFound from "./layout/NotFound";
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
           <Route
             index
             element={
-              <h1 className="my-90 text-center text-5xl font-bold">
-                Home goes here
-              </h1>
+              <>
+                <Home />
+              </>
             }
           />
           <Route
