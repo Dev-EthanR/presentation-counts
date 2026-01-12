@@ -47,6 +47,14 @@ function App() {
               </h1>
             }
           />
+          <Route
+            path="quote"
+            element={
+              <h1 className="my-90 text-center text-5xl font-bold">
+                Quote goes here
+              </h1>
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

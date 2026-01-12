@@ -1,24 +1,28 @@
 import logo from "../assets/images/logo.png";
 import bg from "../assets/images/bg.jpg";
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
+import { useState } from "react";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div
+    <header
       style={{ backgroundImage: `url(${bg})` }}
-      className="bg-size-[83px] h-40 text-2xl flex flex-col items-center pt-4"
+      className={`bg-size-[83px]  min-h-40 text-2xl pt-4 flex items-center`}
     >
-      <Link to="/">
-        <img
-          className="select-none"
-          src={logo}
-          alt="Presentation Counts Logo"
-        />
-      </Link>
-      <span className="text-[#fefdfd] tracking-widest uppercase font-sans text-1xl">
-        property stylists
-      </span>
-    </div>
+      <div className="flex max-w-375 w-full justify-between items-center mx-auto">
+        <Link to="/">
+          <img
+            className="select-none px-4 md:px-0"
+            src={logo}
+            alt="Presentation Counts Logo"
+          />
+        </Link>
+        <NavBar />
+      </div>
+    </header>
   );
 };
 
