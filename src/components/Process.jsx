@@ -1,4 +1,7 @@
-import couch from "../assets/images/icons/couch.png";
+import phone from "../assets/images/icons/phone-ringing.png";
+import clipboard from "../assets/images/icons/clipboard.png";
+import installation from "../assets/images/icons/installation.png";
+import removal from "../assets/images/icons/removal.png";
 import Card from "./Card";
 
 const Process = () => {
@@ -7,26 +10,26 @@ const Process = () => {
       <h2 className="text-center text-3xl font-bold mb-4">
         A SImple, Stress Free Process
       </h2>
-      <div className="grid grid-cols-2 lg:grid-cols-4 max-w-375 mx-auto">
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-375 mx-auto">
         <Card
-          img={couch}
+          img={phone}
           title="Free Consultation"
           subText="Property Assessment"
         />
         <Card
-          img={couch}
-          title="Free Consultation"
-          subText="Property Assessment"
+          img={clipboard}
+          title="Tailored Styling Plan"
+          subText="Design & Selection"
         />
         <Card
-          img={couch}
-          title="Free Consultation"
-          subText="Property Assessment"
+          img={installation}
+          title="Professional Installation"
+          subText="Setup & Styling"
         />
         <Card
-          img={couch}
-          title="Free Consultation"
-          subText="Property Assessment"
+          img={removal}
+          title="Removal After Sale"
+          subText="Furniture Removal"
         />
       </div>
     </section>

@@ -7,9 +7,9 @@ import Button from "./Button";
 
 const Services = () => {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center mx-6">
       <h2 className="text-center text-4xl font-semibold mb-8">Our Services</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8 lg:mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 lg:mb-16">
         <Card
           img={couch}
           title="Compelete Property Styling"
@@ -22,12 +22,14 @@ const Services = () => {
           subText="Expert Tips & Guidance"
           customStyle="shadow-lg"
         />
-        <Card
-          img={design}
-          title="Interior Design"
-          subText="Custom Styling Solutions"
-          customStyle="shadow-lg"
-        />
+        <div className="md:col-span-2 lg:col-auto md:justify-items-center max-w-72.5 w-full lg:max-w-full h-full mx-auto">
+          <Card
+            img={design}
+            title="Interior Design"
+            subText="Custom Styling Solutions"
+            customStyle="shadow-lg"
+          />
+        </div>
       </div>
       <Link to="services">
         <Button color="text-secondary bg-primary">View All Services</Button>
