@@ -1,6 +1,8 @@
-const Card = ({ img, title, subText }) => {
+const Card = ({ img, title, subText, customStyle }) => {
   return (
-    <div className="bg-gray-50 shadow-lg py-4 px-10 flex flex-col items-center rounded-lg w-full">
+    <div
+      className={`bg-gray-50 py-4 px-10 flex flex-col items-center rounded-lg w-full ${customStyle}`}
+    >
       <img className="w-20 lg:w-30 mb-4" src={img} alt="" />
       <p className="font-bold text-secondary text-base lg:text-2xl pb-1.5">
         {title}

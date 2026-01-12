@@ -15,16 +15,19 @@ const Services = () => {
           img={couch}
           title="Compelete Property Styling"
           subText="Full Furniture & Decor"
+          customStyle="shadow-lg"
         />
         <Card
           img={bulb}
           title="Pre-sale Styling Advice"
           subText="Expert Tips & Guidance"
+          customStyle="shadow-lg"
         />
         <Card
           img={design}
           title="Interior Design"
           subText="Custom Styling Solutions"
+          customStyle="shadow-lg"
         />
       </div>
       <Link to="services">
