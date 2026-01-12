@@ -24,13 +24,13 @@ const Hero = () => {
   const backgroundStyle = {
     backgroundImage: `url(${image})`,
     height: useIsMobile() ? "200px" : "500px",
-    width: useIsMobile() ? "100vw" : "60vw",
+    width: useIsMobile() ? "100vw" : "99.3vw",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: useIsMobile() ? "center" : "center bottom",
   };
   return (
-    <div>
+    <section>
       <div className="relative" style={backgroundStyle}>
         <div className="bg-black absolute top-0 w-full h-full opacity-60 z-10"></div>
         <div className="absolute top-0 w-full h-full z-20 flex items-center justify-start flex-col pt-2 lg:pt-10">
@@ -59,7 +59,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
