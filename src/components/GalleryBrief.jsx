@@ -29,8 +29,8 @@ const GalleryBrief = () => {
           <img className="h-full w-full object-cover" src={imageFour} alt="" />
         </div>
       </div>
-      <Link to="gallery">
-        <Button color="text-white bg-secondary">View Gallery</Button>
+      <Link to="portfolio">
+        <Button color="text-white bg-secondary">View Portfolio</Button>
       </Link>
     </section>
   );

@@ -33,10 +33,10 @@ function App() {
             }
           />
           <Route
-            path="gallery"
+            path="portfolio"
             element={
               <h1 className="my-90 text-center text-5xl font-bold">
-                Gallery goes here
+                Portfolio goes here
               </h1>
             }
           />

@@ -15,7 +15,7 @@ const NavBar = ({ isOpen, setIsOpen }) => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
           <NavLink to="services">Services</NavLink>
-          <NavLink to="gallery">Gallery</NavLink>
+          <NavLink to="portfolio">Portfolio</NavLink>
           <NavLink to="contact">Contact</NavLink>
           <NavLink to="quote">
             <Button color="text-secondary bg-primary">

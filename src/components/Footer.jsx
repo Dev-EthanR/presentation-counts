@@ -26,7 +26,7 @@ const Footer = () => {
             <Link to="services">Services</Link>
           </li>
           <li className="hover:brightness-85 bottomBorder">
-            <Link to="gallery">Gallery</Link>
+            <Link to="portfolio">Portfolio</Link>
           </li>
           <li className="hover:brightness-85 bottomBorder">
             <Link to="contact">Contact</Link>
