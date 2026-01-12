@@ -1,10 +1,9 @@
-import React from "react";
-import Card from "../components/Card";
-import Button from "./Button";
 import { Link } from "react-router-dom";
 import couch from "../assets/images/icons/couch.png";
-import bulb from "../assets/images/icons/light-bulb.png";
 import design from "../assets/images/icons/design.png";
+import bulb from "../assets/images/icons/light-bulb.png";
+import Card from "../components/Card";
+import Button from "./Button";
 
 const Services = () => {
   return (
