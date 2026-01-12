@@ -16,11 +16,11 @@ const Header = () => {
       } min-h-40 text-2xl pt-4 md:px-4`}
     >
       <div
-        className={`grid grid-cols-3 gap-y-7 md:flex md:items-center md:justify-between md:max-w-375 md:w-full md:mx-auto`}
+        className={`grid grid-cols-3 gap-y-7 lg:flex lg:items-center lg:justify-between lg:max-w-375 lg:w-full lg:mx-auto`}
       >
         <Link to="/" className="col-span-2 self-center pr-12">
           <img
-            className="select-none px-4 md:px-0 w-140"
+            className="select-none px-4 lgmd:px-0 w-140"
             src={logo}
             alt="Presentation Counts Logo"
           />

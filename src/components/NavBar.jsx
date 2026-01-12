@@ -11,7 +11,7 @@ const NavBar = ({ isOpen, setIsOpen }) => {
   const navLinks = () => {
     return (
       <nav className="text-white col-span-full" id="menu">
-        <div className="flex flex-col items-center gap-6 md:flex-row md:text-xl text-2xl">
+        <div className="flex flex-col items-center gap-6 lg:flex-row lg:text-xl text-2xl">
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
           <NavLink to="services">Services</NavLink>
