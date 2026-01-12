@@ -19,8 +19,8 @@ const Home = () => {
           No Upfront Fee Option Available
         </h2>
         <p className="text-sm max-w-80 lg:max-w-full lg:text-xl text-secondary font-semibold mb-4">
-          small initial deposit on quote acceptance, balance payable on
-          furniture removal (conditions apply).
+          small initial deposit on quote acceptance, balance payable on ???
+          (conditions apply).
         </p>
         <a
           href="tel+61-394-822-722"
