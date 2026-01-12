@@ -44,7 +44,7 @@ const Hero = () => {
             {!useIsMobile() &&
               ", helping homes attract buyers and achieve stronger sale results"}
           </p>
-          <div className="flex items-center justify-between max-w-125 flex-col lg:flex-row gap-2">
+          <div className="flex items-center justify-between max-w-125 flex-col lg:flex-row gap-2 lg:gap-16">
             <Link to="quote">
               <Button color="text-secondary bg-primary">
                 Request a Free Quote
