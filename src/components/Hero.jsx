@@ -1,10 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
-import useIsMobile from "../hooks/useIsMobile";
-import ImageOne from "../assets/images/gallery/house5_2.jpg";
+import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import ImageTwo from "../assets/images/gallery/house12_5.jpg";
 import ImageThree from "../assets/images/gallery/house3_6.jpg";
+import ImageOne from "../assets/images/gallery/house5_2.jpg";
 import logo from "../assets/images/logo.png";
-import { Link } from "react-router-dom";
+import useIsMobile from "../hooks/useIsMobile";
 import Button from "./Button";
 
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="absolute top-0 w-full h-full z-20 flex items-center justify-start flex-col pt-2 lg:pt-10">
           <img className="mb-2 lg:mb-7 h-10 lg:h-20" src={logo} alt="logo" />
           <h1 className="text-white text-base lg:text-3xl font-semibold mb-2 lg:mb-9">
-            Considred Styling. Elevated Results.
+            Considered Styling. Elevated Results.
           </h1>
           <p className="text-white max-w-137.5 text-center mb-3 lg:mb-15">
             Professional property styling across
