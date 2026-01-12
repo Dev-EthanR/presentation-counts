@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import useIsMobile from "../hooks/useIsMobile";
-import menuImg from "../assets/images/menu.svg";
-import closeImg from "../assets/images/close.svg";
+import menuImg from "../assets/images/icons/menu.svg";
+import closeImg from "../assets/images/icons/close.svg";
 import Button from "./Button";
 
 const NavBar = ({ isOpen, setIsOpen }) => {

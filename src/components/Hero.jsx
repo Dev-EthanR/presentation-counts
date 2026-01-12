@@ -4,7 +4,7 @@ import ImageOne from "../assets/images/gallery/house5_2.jpg";
 import ImageTwo from "../assets/images/gallery/house12_5.jpg";
 import ImageThree from "../assets/images/gallery/house3_6.jpg";
 import logo from "../assets/images/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 
 const Hero = () => {
@@ -45,11 +45,11 @@ const Hero = () => {
               ", helping homes attract buyers and achieve stronger sale results"}
           </p>
           <div className="flex items-center justify-between max-w-125 flex-col lg:flex-row gap-2">
-            <NavLink to="quote">
+            <Link to="quote">
               <Button color="text-secondary bg-primary">
                 Request a Free Quote
               </Button>
-            </NavLink>
+            </Link>
             <a
               href="tel+61-394-822-722"
               className="text-white text-base lg:text-3xl font-bold"

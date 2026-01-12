@@ -1,12 +1,12 @@
 import { CiLocationOn } from "react-icons/ci";
 import { PiCreditCardDuotone } from "react-icons/pi";
 
-import handshake from "../assets/images/handshake.png";
-import badge from "../assets/images/badge.png";
+import handshake from "../assets/images/icons/handshake.png";
+import badge from "../assets/images/icons/badge.png";
 
 const TrustStrip = () => {
   return (
-    <section className="grid grid-cols-2 gap-2 items-center lg:grid-cols-4 px-2 lg:px-10 py-5 bg-gray-50 shadow-lg md:text-xl text-sm font-semibold">
+    <section className="w-full grid grid-cols-2 gap-2 items-center lg:grid-cols-4 px-2 lg:px-10 py-5 bg-gray-50 shadow-lg md:text-xl text-sm font-semibold">
       <span className="flex items-center gap-3">
         <img className="md:w-10 w-5" src={badge} alt="" />
         20- Years Experience
